@@ -1,0 +1,22 @@
+{
+  "name": "makerdisplay-bounce-server",
+  "version": "1.0.0",
+  "description": "The bouncy server.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node dist/main.js",
+    "clean": "rimraf dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Smith <code@uvwxy.de>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
